@@ -1,13 +1,13 @@
 class Rampa < Formula
   desc "Generate mathematically accurate color palettes from a base color"
   homepage "https://github.com/basiclines/rampa-studio"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.0/rampa-darwin-arm64"
-      sha256 "02691c0dbb9e593d0e61e0c7e92fb31e001b94747b756145dfe1d3fbb738eaab"
+      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.1/rampa-darwin-arm64"
+      sha256 "56b58568d4fd87789e72200fecb49940dd71c538d5171b2d8690f317e5d5ee4e"
 
       def install
         bin.install "rampa-darwin-arm64" => "rampa"
@@ -15,8 +15,8 @@ class Rampa < Formula
     end
 
     on_intel do
-      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.0/rampa-darwin-x64"
-      sha256 "055048945a46dcb19ecc85a8d1e518a12872eeb4ee677aa4157282b0b0d45967"
+      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.1/rampa-darwin-x64"
+      sha256 "d842b67b99b6d5e550d11baa95d38af9ede499e77e5c540643842de5899f0bbf"
 
       def install
         bin.install "rampa-darwin-x64" => "rampa"
@@ -26,8 +26,8 @@ class Rampa < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.0/rampa-linux-arm64"
-      sha256 "161b9552097a853bb790858af03924b5119361e0de5aa83b67d6bfd290e1d7a2"
+      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.1/rampa-linux-arm64"
+      sha256 "92d8fca993941e8503ed1bf274093af34f75b66a4f7482bc142f9ced5eea1bd5"
 
       def install
         bin.install "rampa-linux-arm64" => "rampa"
@@ -35,8 +35,8 @@ class Rampa < Formula
     end
 
     on_intel do
-      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.0/rampa-linux-x64"
-      sha256 "75bcf5559e46ff2d4724c128a4a4624b8184589f3e406b980989a8c4354d3eb4"
+      url "https://github.com/basiclines/rampa-studio/releases/download/v1.1.1/rampa-linux-x64"
+      sha256 "f3c1464964b354cef3af7adceeb871748ecaa1fac40e90af2391d63ec67da782"
 
       def install
         bin.install "rampa-linux-x64" => "rampa"
